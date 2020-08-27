@@ -1,9 +1,0 @@
-Create a new slinglog file using this path: http://localhost:4502/system/console/slinglog
-you can create the log file below configuration
-loglevel: debug 
-Log File: logs\traversal.log
-Logger : com.day.cq.search.impl.builder.QueryImpl
-         org.apache.jackrabbit.oak.query
-         
- You can see that there are two entries for logger--> com.day.cq.search.impl.builder.QueryImpl and org.apache.jackrabbit.oak.query. 
- You need to add them one by one under Logger by using + icon
